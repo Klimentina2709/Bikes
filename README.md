@@ -1,7 +1,7 @@
 # Bike Page Project: A Learning Journey
 
 [![Vanilla JavaScript](https://img.shields.io/badge/Vanilla%20JavaScript-Basic-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-blue)](https://reactjs.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)](https://getbootstrap.com/)
 
 This repository showcases a bike-themed web page created twice during my front-end development learning journey. I initially built the page using vanilla JavaScript and plain CSS, and then later recreated it using React and Bootstrap when I was first introduced to component-based development. It was a valuable learning experience, demonstrating my growth from basic web development to more advanced concepts.
