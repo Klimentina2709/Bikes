@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes</title>
+    <meta name="keywords" content="html,css,javaScript" />
+    <meta name="description" content="Bikes" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled and minified BOOTSTRAP CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    /> -->
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Font-awesome 5 cdn -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    /> -->
+    <script src="https://kit.fontawesome.com/4dddc47b6f.js"></script>
+  </head>
+  <body>
+    <!-- start here -->
+
+    <nav class="wrapper">
+      <a href="#">
+        <img src="./img/logo.png" alt="Logo" />
+      </a>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Bikes</a></li>
+        <li><a href="#">Gear</a></li>
+        <li><a href="#">Parts</a></li>
+        <li><a href="#">Tires</a></li>
+        <li><a href="#">Service-info</a></li>
+        <li><a href="#">Catalogues</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+      </div>
+    </nav>
+
+    <div class="h1">
+      <hr />
+      <h1>Bikes</h1>
+      <hr />
+    </div>
+
+    <section class="section wrapper">
+
+      <aside id="sidebar">
+        <h3 class="caption">Filter by:</h3>
+        <ul class="sidebarLinks">
+            <li>
+              <!-- Depending on the further logic we can use anchor tags as well, but I decided to go with label and checkbox,
+                 which are hidden but we can also use them to select multiple choices maybe in future... -->
+                <!-- Show all -->
+                <label>
+                    <input type="checkbox" id="showAll" name="showAll">
+                    Show all
+                </label>
+                <span>0</span>
+            </li>
+        </ul>
+        <hr />
+        <h4 class="caption">Gender:</h4>
+        <ul class="sidebarLinks">
+            <li>
+                <!-- Male -->
+                <label>
+                    <input type="checkbox" id="male" name="gender">
+                    Male
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Female -->
+                <label>
+                    <input type="checkbox" id="female" name="gender">
+                    Female
+                </label>
+                <span>0</span>
+            </li>
+        </ul>
+        <hr />
+        <h4 class="caption">Brands:</h4>
+        <ul class="sidebarLinks typeOfBikes" id="brands">
+            <li>
+                <!-- Le grand bikes -->
+                <label>
+                    <input type="checkbox" id="leGrand" name="brand">
+                    Le grand bikes
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Kross -->
+                <label>
+                    <input type="checkbox" id="kross" name="brand">
+                    Kross
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Explorer -->
+                <label>
+                    <input type="checkbox" id="explorer" name="brand">
+                    Explorer
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Visitor -->
+                <label>
+                    <input type="checkbox" id="visitor" name="brand">
+                    Visitor
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Pony -->
+                <label>
+                    <input type="checkbox" id="pony" name="brand">
+                    Pony
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Force -->
+                <label>
+                    <input type="checkbox" id="force" name="brand">
+                    Force
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- E-bikes -->
+                <label>
+                    <input type="checkbox" id="ebikes" name="brand">
+                    E-bikes
+                </label>
+                <span>0</span>
+            </li>
+            <li>
+                <!-- Ideal -->
+                <label>
+                    <input type="checkbox" id="ideal" name="brand">
+                    Ideal
+                </label>
+                <span>0</span>
+            </li>
+        </ul>
+    </aside>
+    
+      <section id="cards">
+        <!-- Cards here -->
+      </section>
+    </section>
+
+    <footer>
+      <div class="footerSection socialLinks">
+        <h3 class="caption">Social share</h3>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerSection">
+        <h3 class="caption">Event info</h3>
+        <ul>
+          <li><a href="#">Enter Now</a></li>
+          <li><a href="#">Event info</a></li>
+          <li><a href="#">Course maps</a></li>
+          <li><a href="#">Race Packs</a></li>
+          <li><a href="#">Results</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Am I registered?</a></li>
+        </ul>
+      </div>
+      <div class="footerSection">
+        <h3 class="caption">Registration</h3>
+        <ul>
+          <li><a href="#">Volunteers</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Result</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Service Plus</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="footerSection">
+        <h3 class="caption">Schedule</h3>
+        <ul>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Videos</a></li>
+          <li><a href="#">Results</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Results</a></li>
+          <li><a href="#">Volunteers</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
