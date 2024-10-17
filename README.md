@@ -34,7 +34,7 @@ Revisiting the project using React gave me a deeper appreciation for the benefit
 You can clone the repository and switch branches using the following commands:
 
 ```bash
-git clone https://github.com/your-username/bike-page-project.git
+git clone https://github.com/Klimentina2709/Bikes.git
 
 # Switch to the Vanilla JavaScript version
 git checkout Vanilla_JavaScript_Page
