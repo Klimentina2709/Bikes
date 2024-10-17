@@ -1,0 +1,17 @@
+  
+  .cardInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card:hover {
+    border: 2px solid orange;
+  }
+
+  .bodyCard img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+  }

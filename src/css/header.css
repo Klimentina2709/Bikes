@@ -1,0 +1,26 @@
+.navbarLogo {
+  height: 60px;
+}
+
+.logo {
+  height: 100%;
+}
+
+.nav-icons i {
+  font-size: 20px;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.nav-item .bg:hover {
+  background-color: #e7e7e7;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: orange;
+}
+.navbar-nav .nav-item a {
+  color: rgb(19, 19, 19);
+}
