@@ -9,10 +9,10 @@ This repository showcases a bike-themed web page created twice during my front-e
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Branches](#branches)
 - [Learning Experience](#learning-experience)
+- [Contact](#contact)
 
-## Introduction and Branches
+## Introduction
 
 The Bike Page Project represents my progression as a front-end developer. I started with a basic implementation using vanilla JavaScript and plain CSS, learning to create dynamic content and make AJAX requests. Later, I revisited the project to rebuild it with React, introducing myself to component-based architecture, state management, and using Bootstrap for responsive styling.
 
@@ -37,8 +37,15 @@ You can clone the repository and switch branches using the following commands:
 git clone https://github.com/Klimentina2709/Bikes.git
 
 # Switch to the Vanilla JavaScript version
+
 git checkout Vanilla_JavaScript_Page
 
 # Switch to the React version
+
 git checkout React_Page
+# install node_modules
 ```
+
+## Contact
+
+If you have any questions, feel free to contact me.
